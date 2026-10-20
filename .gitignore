@@ -1,0 +1,20 @@
+# The corpus is generated, not shipped. `python corpus.py` rebuilds it
+# byte-identically on any machine, so there is nothing here worth tracking.
+corpus.csv
+*.db
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+.venv/
+venv/
+env/
+.env
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
